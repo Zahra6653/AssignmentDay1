@@ -1,0 +1,36 @@
+[  DEBUG] 15:34 (LogProperties.java:main:11)
+This is DEBUG message
+
+[   INFO] 15:34 (LogProperties.java:main:12)
+This is INFO message
+
+[  ERROR] 15:34 (LogProperties.java:main:13)
+This is ERROR message
+
+[  FATAL] 15:34 (LogProperties.java:main:14)
+This is FATAL message
+
+[  DEBUG] 18:28 (LogProperties.java:main:11)
+This is DEBUG message
+
+[   INFO] 18:28 (LogProperties.java:main:12)
+This is INFO message
+
+[  ERROR] 18:28 (LogProperties.java:main:13)
+This is ERROR message
+
+[  FATAL] 18:28 (LogProperties.java:main:14)
+This is FATAL message
+
+[  DEBUG] 18:48 (LogProperties.java:main:11)
+This is DEBUG message
+
+[   INFO] 18:48 (LogProperties.java:main:12)
+This is INFO message
+
+[  ERROR] 18:48 (LogProperties.java:main:13)
+This is ERROR message
+
+[  FATAL] 18:48 (LogProperties.java:main:14)
+This is FATAL message
+
