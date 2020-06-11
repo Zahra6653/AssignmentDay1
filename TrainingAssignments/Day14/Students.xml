@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stu SYSTEM "StudentDetail.dtd" >
+<Students>
+
+	<Student>
+
+		<Id>1</Id>
+		<name>Zahra</name>
+		<branch>CSE</branch>
+		<semester>8th</semester>
+
+	</Student>
+
+	<Student>
+
+		<Id>2</Id>
+		<name>Shiksha</name>
+		<branch>Mechanical</branch>
+		<semester>8th</semester>
+
+	</Student>
+
+	<Student>
+
+		<Id>3</Id>
+		<name>Aman</name>
+		<branch>CSE</branch>
+		<semester>6th</semester>
+
+	</Student>
+
+	<Student>
+
+		<Id>4</Id>
+		<name>Shubham</name>
+		<branch>Mining</branch>
+		<semester>4th</semester>
+
+	</Student>
+
+
+</Students>

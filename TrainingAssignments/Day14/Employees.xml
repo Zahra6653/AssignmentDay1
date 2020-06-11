@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE emp SYSTEM "EmployeeStructure.dtd">
+<!-- this is a comment -->
+<employees>
+
+	<employee>
+		<id>1001</id>
+		<name>sachin </name>
+	</employee>
+
+	<employee>
+		<id>1002</id>
+		<name>ramesh </name>
+	</employee>
+	
+	
+	
+	
+</employees>
+ 
