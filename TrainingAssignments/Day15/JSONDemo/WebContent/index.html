@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>Thid id p</p>
+	<h1 id="x"></h1>
+	<script type="text/javascript">
+	document.write("<br>-------JSON-------<br>");
+	var company = {
+	"employee" : 
+	    [{"id" : 1 ,"name" : "sachin"},
+	    {"id" : 2 ,"name" : "zahra"}],
+	"companyname" : "xyz pvt limited"
+	}; 
+	document.write(company.employee[0].name + "<br>");
+	for(x in company.employee)
+		{
+		document.write(company.employee[x].id + " " + company.employee[x].name +"<br>");
+		}
+	document.write(company["companyname"] + "<br>");
+	document.write(company["employee"] + "<br>");
+	
+	<!---
+		var name = "Sachin";
+		var salary = 500000;
+		alert(name);
+		document.write(name);
+		console.log(name);
+		document.getElementById('x').innerHTML = name;
+		document.write("<br>--------------<br>");
+		document.write(typeof (name) + "<br>");
+		document.write(typeof (salary) + "<br>");
+		document.write("<br>------array--------<br>");
+		var name = [ "zahra", "kumar", "ravi" ];
+		document.write(name.length + "<br>");
+		document.write(name[0] + "<br>");
+		document.write("<br>--------------<br>");
+		for (var i = 0; i < name.length; i++) {
+			document.write(name[i]+"<br>");
+		}
+		--->
+		
+	</script>
+</body>
+</html>

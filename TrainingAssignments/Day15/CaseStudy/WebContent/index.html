@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1 id="x"></h1>
+	<script type="text/javascript">
+	
+	document.getElementById('x').innerHTML = "MENU";
+	
+	var menu = {
+			"Appetite" : 
+				[
+					{"name" : "crab cakes" , "price" : 40 },
+					{"name" : "eggrolls" , "price" : 70 },
+					{"name" : "seafood fries" , "price" : 110 },
+					{"name" : "fried pickles" , "price" : 60 }
+				],
+	        "Entrees" : 
+	        	[
+	        		{"name" : "popcorn shrimp" , "price" : 40 },
+	        		{"name" : "prawns" , "price" : 140 },
+	        		{"name" : "crab claws" , "price" : 60 }
+	           ],
+			"Drinks" : 
+				[
+					{"name" : "water" , "price" : 20 },
+					{"name" : "iced ted" , "price" : 30 },
+					{"name" : "fresh fruit smoothe" , "price" : 60 }
+				]
+			
+	};
+	
+	document.write("<br>--------MENU LIST--------------<br>");
+	document.write("<br>APPETITE : <br>");
+	
+	
+	for(x in menu.Appetite)
+	{
+		document.write(menu.Appetite[x].name + "       " + menu.Appetite[x].price +"<br>");
+	}
+	document.write("<br>ENTREES : <br>");
+	for(y in menu.Entrees)
+	{
+	document.write(menu.Entrees[y].name + "       " + menu.Entrees[y].price +"<br>");
+	}
+	document.write("<br>DRINKS :  <br>");
+	for(z in menu.Drinks)
+	{
+	document.write(menu.Drinks[z].name + "       " + menu.Drinks[z].price +"<br>");
+	}
+	
+	
+	
+	</script>
+</body>
+</html>
